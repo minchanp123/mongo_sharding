@@ -13,17 +13,17 @@
    - primary, secondary의 레플리카 셋의 중개자 역할
    - 전체 노드의 쿼리 기능
     
-#### ** config** 
-   - data chank위치 정보 저장
+#### **config** 
+   - data chank 위치 정보 저장
 
-#### ** primary** 
+#### **primary** 
    - 메인 스토리지 db서버
 
-#### ** secondary** 
+#### **secondary** 
    - 서브 스토리지 db서버
    - 복구/백업용
 
-#### ** arbiter** 
+#### **arbiter** 
    - primary가 죽을 경우 secondary를 primary로 승격 해주는 역할
 
 
